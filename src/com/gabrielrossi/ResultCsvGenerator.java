@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 public class ResultCsvGenerator {
-    public static void generate(Set<Result> results, String outputName) throws IOException {
+    public static void generate(Set<Result> results, String outputName) {
 
         File file = new File("files/output/"+outputName+".csv");
         try (
